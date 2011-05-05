@@ -5,7 +5,7 @@
 	get_header(); 
 	$a = query_posts('posts_per_page=-1');
 ?>
-<?php echo count($a); ?> Article<?php if(count($a) != 1): ?>s<?php endif; ?><
+<?php echo count($a); ?> Article<?php if(count($a) != 1): ?>s<?php endif; ?>
 <?php 
 	$t_month = '';   
 	$start = TRUE;

@@ -19,7 +19,7 @@
 <?php if($t_month != get_the_date('m')): ?>
 <?php if(!$start):?>
 <?php endif; ?>		
-<h3 class="month"><?php echo get_the_date('F Y');?></h3>
+<?php echo get_the_date('F Y');?>
 <?php endif; ?>
 <?php get_template_part('parts/article-summary'); ?>
 <?php 

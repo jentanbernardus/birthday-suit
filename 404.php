@@ -4,10 +4,6 @@
  */
 ?>
 <?php get_header(); ?>
-<div id="content" class="group">
-<div id="primary">
-<h1>404: Page Not Found</h1>
-</div>
+404: Page Not Found
 <?php get_sidebar(); ?>
-</div>
 <?php get_footer(); ?>
